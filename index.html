@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-main-color="#272B30">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poda_Up</title>
+
+    <!-- links Bootstrap -->
+    <link rel="stylesheet" href="./libs/css-libs/bootstrap.min.css">
+
+    <!-- links font Awesome -->
+    <link rel="stylesheet" href="./libs/css-libs/all.min.css">
+
+    <!-- links Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Babylonica&family=Barlow:wght@500&family=Cairo:wght@500&family=Changa:wght@700&family=Quicksand:wght@500&family=Ubuntu:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+
+    <!-- My CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="poda">
+        <img src="./imgs/bg-logo.png" alt="">
+    </div>
+    <div class="loading d-none">
+        <div class="w-100 h-100 d-flex justify-content-center align-items-center">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <section class="my-nav">
+        <div class="container-fluid px-lg-3 px-0">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <div>
+                        <a class="navbar-brand m-0" href="#"><img src="./imgs/titleLogo.png" alt="" id="title-logo"></a>
+                        <img src="./imgs/route.png" alt="" id="title-name">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-category="mmorpg" href="#">mmorpg <span
+                                        class="d-lg-block d-none"></span> <span class="d-lg-block d-none"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-category="shooter" href="#">shooter <span
+                                        class="d-lg-block d-none"></span> <span class="d-lg-block d-none"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-category="sailing" href="#">sailing <span
+                                        class="d-lg-block d-none"></span> <span class="d-lg-block d-none"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-category="permadeath" href="#">PERMADEATH <span
+                                        class="d-lg-block d-none"></span> <span class="d-lg-block d-none"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-category="superhero" href="#">SUPERHERO <span
+                                        class="d-lg-block d-none"></span> <span class="d-lg-block d-none"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-category="pixel" href="#">pixel <span
+                                        class="d-lg-block d-none"></span> <span class="d-lg-block d-none"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="photos-bg">
+        <div class="container-fluid">
+            <div class="container">
+                <button class="left-btn"><i class="fa-sharp fa-solid fa-circle-arrow-left"></i></button>
+                <div class="showing">
+                    <div class="">
+                        <img src="./imgs/gaming6.jpg" alt="" class="main old">
+                        <!-- <img src="./imgs/gaming1.jpg" alt="" class="next-photo left"> -->
+                    </div>
+                    <div class="">
+                        <img src="./imgs/gaming1.jpg" alt="" class="main old">
+                    </div>
+                    <div class="">
+                        <img src="./imgs/gaming2.jpg" alt="" class="main old">
+                    </div>
+                </div>
+                <button class="right-btn"><i class="fa-sharp fa-solid fa-circle-arrow-right"></i></button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="show-games">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row" id="storehouse">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="details d-none">
+        <div class="container-fluid">
+            <div class="container py-5">
+                <h2 class="mb-4">Details Game</h2>
+                <div class="row">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- scripts -->
+
+    <!-- Bootstrap JS -->
+    <script src="./libs/js-libs/bootstrap.bundle.min.js"></script>
+
+    <!-- My JS-->
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/ui.js" type="module"></script>
+</body>
+
+</html>
